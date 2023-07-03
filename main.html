@@ -14,7 +14,7 @@
 	<h1>Internship Form</h1>
 	<form class="row g-3">
   <div class="col-md-4">
-    <label for="first-name-input" class="form-label">First name</label>
+    <label for="first-name-input" class="form-label">First Name</label>
     <input type="text" class="form-control is-invalid" id="first-name-input" required>
 	  <div id="first-name-input-feedback" class="invalid-feedback">
       First name required!
@@ -33,7 +33,7 @@
     <label for="validationServerUsername" class="form-label">Email Address</label>
     <div class="input-group has-validation">
 <!--       <span class="input-group-text" id="inputGroupPrepend3">@</span> -->
-      <input type="text" class="form-control is-invalid" id="email-input" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+      <input type="email" class="form-control is-invalid" id="email-input" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
       <div id="validationServerUsernameFeedback" class="invalid-feedback">
         Email Required!
       </div>
@@ -42,7 +42,7 @@
 		
   <div class="col-md-6">
     <label for="validationServer03" class="form-label">College</label>
-    <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+    <input type="text" class="form-control is-invalid" id="college-input" aria-describedby="validationServer03Feedback" required>
     <div id="validationServer03Feedback" class="invalid-feedback">
       Please provide a valid college.
     </div>
@@ -57,13 +57,13 @@
 		<option>2022</option>
 		<option>2023</option>
     </select>
-    <div id="validationServer04Feedback" class="invalid-feedback">
+    <div id="grad-year-select" class="invalid-feedback">
       Please select a valid Graduation Year.
     </div>
   </div>
 		
   <div class="col-md-3">
-    <label for="validationServer05" class="form-label">Roll No.</label>
+    <label for="roll-no-input" class="form-label">Roll No.</label>
     <input type="text" class="form-control is-invalid" id="roll-no" aria-describedby="validationServer05Feedback" required>
     <div id="validationServer05Feedback" class="invalid-feedback">
       Please enter a valid Roll no.
